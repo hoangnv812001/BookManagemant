@@ -1,0 +1,18 @@
+﻿<Window x:Class="BookManagemant.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookManagemant"
+        mc:Ignorable="d"
+        Title="Login" Height="372" Width="352" Background="#FF00E3FF" WindowStartupLocation="CenterScreen">
+    <Grid Margin="24,27,44,83">
+        <Label Content="Email" HorizontalAlignment="Left" Margin="22,31,0,0" VerticalAlignment="Top" Height="30" Width="59"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="22,100,0,0" VerticalAlignment="Top" Height="30" Width="59"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="30" Margin="105,31,0,0" TextWrapping="Wrap" Text="hoangnv@gmail.com" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.496,-0.135"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="30" Margin="105,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.496,-0.135"/>
+        <Button x:Name="tbn_Close" Content="Close" HorizontalAlignment="Left" Height="42" Margin="185,171,0,0" VerticalAlignment="Top" Width="60" Click="tbn_Close_Click" Background="#FFDA8080"/>
+        <Button x:Name="tbn_Login" Content="Login" HorizontalAlignment="Left" Height="42" Margin="105,171,0,0" VerticalAlignment="Top" Width="60" Background="#FFB9FFA5" Click="tbn_Login_Click"/>
+
+    </Grid>
+</Window>
